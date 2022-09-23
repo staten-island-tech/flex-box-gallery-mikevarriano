@@ -1,33 +1,57 @@
-html, body * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-size: 62.5%;
+html,
+body * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color:lightblue;
 }
-.parent{
-font-size: 30px;
+
+h1{
+font-size: 6rem;
+text-align: center;
+}
+.parent {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.child {
+    border: 1px solid red;
+    font-size: 30px;
+    width: 28%;
 
 }
 
-.child{
-border: 1px solid red;
-font-size: 30px;
-display: flex;
-flex-wrap: wrap;
+h2 {
+
+    margin: 1rem 21;
 }
 
-h2{
-
-    margin: 1rem   21;
-}
-.px-size{
-font-size: 20px;
+.px-size {
+    font-size: 20px;
 }
 
-.rem-size{
-font-size: 2rem;
+.rem-size {
+    font-size: 2rem;
 }
-.em-size{
+
+.em-size {
 
     font-size: 1em;
+}
+
+.child-1 {
+    border: 3px solid green;
+}
+
+.child-2 {
+    border: 3px solid yellow;
+
+}
+
+.child-3 {
+    border: 3px solid blue;
+
 }
