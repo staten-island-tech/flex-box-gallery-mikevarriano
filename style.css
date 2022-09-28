@@ -4,25 +4,26 @@ body * {
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-    background-color:lightblue;
+    background-color: lightblue;
 }
 
-h1{
-font-size: 6rem;
-text-align: center;
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'Nabla', cursive;
+
+    
+
 }
+
 .parent {
     font-size: 30px;
     display: flex;
     justify-content: space-around;
-}
-
-.child {
-    border: 1px solid red;
-    font-size: 30px;
-    width: 28%;
+    margin-top: 30px;
 
 }
+
 
 h2 {
 
@@ -43,28 +44,44 @@ h2 {
 }
 
 .child-1 {
-    border: 3px solid green;
+    border: 3px solid tan;
     display: flex;
     align-items: center;
     flex-direction: column;
+    box-shadow: 10px 5px 5px tan;
+    background-color: tan;
 }
 
 .child-2 {
-    border: 3px solid yellow;
-display: flex;
-align-items: center;
-flex-direction: column;
+    border: 3px solid white
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px white;
+    background-color: white
 }
 
 .child-3 {
-    border: 3px solid blue;
+    border: 3px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px red;
+    background-color: red;
 
 }
-.hangoverimg{
-width: 400px;
+
+.hangoverimg {
+    width: 400px;
 
 }
-.projectximg{
-width: 400px;
+
+.projectximg {
+    width: 400px;
+
+}
+
+.ferrisimg {
+    width: 400px;
 
 }
