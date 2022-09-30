@@ -16,7 +16,7 @@ h1 {
 
 }
 
-.parent {
+.parent-1 {
     font-size: 30px;
     display: flex;
     justify-content: space-around;
@@ -60,7 +60,8 @@ h2 {
 
 .child-3 {
     border: 3px solid red;
-    display: flex;;
+    display: flex;
+    ;
     box-shadow: 10px 5px 5px red;
     background-color: white;
 
@@ -73,19 +74,29 @@ h2 {
     background-color: white;
 
 }
-.movie{
 
-width: 400px;
+.movie {
+    min-width: 29vw;
+    width: 400px;
 }
-.child-5{
+
+.child-5 {
     border: 3px solid tan;
     display: flex;
     box-shadow: 10px 5px 5px tan;
 
 
 }
-.child{27%
 
-
-
+.child {
+    min-width: 29%;
+    justify-content: center;
+    align-content: center;
 }
+.child-6{
+    border: 3px solid red;
+    display: flex;
+    box-shadow: 10px 5px 5px red;
+    background-color: white;
+}
+
