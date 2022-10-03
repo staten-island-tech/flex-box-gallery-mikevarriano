@@ -1,10 +1,10 @@
 html,
 body * {
     padding: 0;
-    margin: 0;
+    margin: 2rem;
     box-sizing: border-box;
     font-size: 62.5%;
-    background-color: lightblue;
+    background-color: black;
 }
 
 h1 {
@@ -20,70 +20,61 @@ h1 {
     font-size: 30px;
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
+    margin: 30px auto;
     flex-wrap: wrap;
     align-items: center;
+    width: 90vw;
+
 
 }
 
+.child{
+    box-shadow: 10px 5px 5px goldenrod;
+    background-color: white;
 
-h2 {
 
-    margin: 1rem 21;
-}
-
-.px-size {
-    font-size: 20px;
-}
-
-.rem-size {
-    font-size: 2rem;
-}
-
-.em-size {
-
-    font-size: 1em;
 }
 
 .child-1 {
-    border: 3px solid tan;
-    display: flex;
-    box-shadow: 10px 5px 5px tan;
-    background-color: tan;
+
+ 
+    
+    background-color: white;
 }
 
 .child-2 {
-    border: 3px solid white display: flex;
-    box-shadow: 10px 5px 5px white;
+
+    box-shadow: 10px 5px 5px red;
     background-color: white
 }
 
 .child-3 {
-    border: 3px solid red;
-    display: flex;
-    ;
+ 
+    
     box-shadow: 10px 5px 5px red;
     background-color: white;
 
 }
 
 .child-4 {
-    border: 3px solid red;
-    display: flex;
+   
     box-shadow: 10px 5px 5px red;
     background-color: white;
 
 }
 
 .movie {
-    min-width: 29vw;
-    width: 400px;
+    width: 30rem;
+    height: 50rem;
+    align-items: center;
+  
 }
 
 .child-5 {
-    border: 3px solid tan;
-    display: flex;
-    box-shadow: 10px 5px 5px tan;
+
+    box-shadow: 10px 5px 5px red
+    background-color: white
+
 
 
 }
@@ -93,9 +84,9 @@ h2 {
     justify-content: center;
     align-content: center;
 }
-.child-6{
-    border: 3px solid red;
-    display: flex;
+
+.child-6 {
+   
     box-shadow: 10px 5px 5px red;
     background-color: white;
 }
