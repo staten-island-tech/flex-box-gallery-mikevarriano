@@ -43,7 +43,20 @@ transition: all 0.3s;
     
     background-color: white;
 }
+.child-1:hover{
+transform: rotateX(80deg)
 
+}
+.child-3:hover{
+    transform: scale(1.3);
+}
+.child-5{
+
+    
+}
+.child-2:hover{
+transform: rotateX(45deg)
+}
 .child-2 {
 
  ;
