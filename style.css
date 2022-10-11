@@ -11,6 +11,7 @@ h1 {
     font-size: 6rem;
     text-align: center;
     font-family: 'Nabla', cursive;
+    animation: fadeIn 5s;
 
 
 
@@ -103,5 +104,11 @@ transform: rotateX(45deg)
 .child-6 {
    ;
     background-color: white;
+}
+
+@keyframes fadeIn{
+0% {opacity: 0;}
+100% {opacity: 1;}
+
 }
 
