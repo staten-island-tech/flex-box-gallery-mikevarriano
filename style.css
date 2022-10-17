@@ -12,6 +12,7 @@ h1 {
     text-align: center;
     font-family: 'Nabla', cursive;
     animation: fadeIn 5s;
+    
 
 
 
@@ -64,6 +65,10 @@ transform: rotateX(45deg)
     background-color: white
 }
 
+.child-5:hover{
+transform: scale(1.7)
+
+}
 .child-3 {
  
     
@@ -94,7 +99,10 @@ transform: rotateX(45deg)
 
 
 }
+.child-4:hover{
 
+    transform: scale(1.5);
+}
 .child {
     min-width: 29%;
     justify-content: center;
