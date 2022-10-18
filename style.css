@@ -12,7 +12,7 @@ h1 {
     text-align: center;
     font-family: 'Nabla', cursive;
     animation: fadeIn 5s;
-    
+
 
 
 
@@ -120,3 +120,9 @@ transform: scale(1.7)
 
 }
 
+@media(max-width: 525px){
+    h1{color: brown;}
+}
+/* 525 is phone width */
+
+ 
