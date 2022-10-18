@@ -121,7 +121,7 @@ transform: scale(1.7)
 }
 
 @media(max-width: 525px){
-    h1{color: brown;}
+    background-color: blue;
 }
 /* 525 is phone width */
 
